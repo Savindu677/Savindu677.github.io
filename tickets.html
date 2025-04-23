@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Booking</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Movies 4K</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="upcoming.html">Upcoming Movies</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="showtime.html">Showtime</a></li>
+            <li><a href="faq.html">Queries & FAQ</a></li>   
+            <li><a href="tickets.html">Tickets</a></li> 
+        </ul>
+    </nav>
+
+    <div class="container1">
+        <h1>Movie Ticket Booking</h1>
+
+        <!-- Now Showing Section -->
+        <section class="movie-section">
+            <h2>Now Showing</h2>
+            <div class="movie-list">
+                <div class="movie-item">
+                    <img src="/images/2025 Rango 2 movie Netflix recommendations.jpg" alt="Rango 2">
+                    <p>Rango 2</p>
+                    <p>Price: $10</p>
+                    <input type="number" min="1" value="1" id="quantity-Rango 2">
+                    <button onclick="addTicket('Rango 2', 10, 'quantity-Rango 2')">Book Now</button>
+                </div>
+                <div class="movie-item">
+                    <img src="/images/ronin.jpg" alt="Movie B">
+                    <p>47 Ronnin</p>
+                    <p>Price: $12</p>
+                    <input type="number" min="1" value="1" id="quantity-47 Ronnin">
+                    <button onclick="addTicket('47 Ronnin', 12, 'quantity-47 Ronnin')">Book Now</button>
+                </div>
+                <div class="movie-item">
+                    <img src="/images/Kingdom of the Planet of the Apes 🦍.jpg" alt="Kingdom of the Planet of the Apes">
+                    <p>Kingdom of the Planet of the Apes</p>
+                    <p>Price: $10</p>
+                    <input type="number" min="1" value="1" id="quantity-Kingdom of the Planet of the Apes">
+                    <button onclick="addTicket('Kingdom of the Planet of the Apes', 10, 'quantity-Kingdom of the Planet of the Apes')">Book Now</button>
+                </div>
+                <div class="movie-item">
+                    <img src="/images/sdasd.jpg" alt="Triangle of Sadness">
+                    <p>Triangle of Sadness</p>
+                    <p>Price: $10</p>
+                    <input type="number" min="1" value="1" id="quantity-Triangle of Sadness">
+                    <button onclick="addTicket('Triangle of Sadness', 10, 'quantity-Triangle of Sadness')">Book Now</button>
+                </div>
+                <div class="movie-item">
+                    <img src="/images/ssssss.jpg" alt="Movie A">
+                    <p>Extraction 3</p>
+                    <p>Price: $10</p>
+                    <input type="number" min="1" value="1" id="quantity-Extraction 3">
+                    <button onclick="addTicket('Extraction 3', 10, 'quantity-Extraction 3')">Book Now</button>
+                </div>
+                <div class="movie-item">
+                    <img src="/images/UNITRAMOVIES.jpg" alt="The Bank Job">
+                    <p>The Bank Job</p>
+                    <p>Price: $10</p>
+                    <input type="number" min="1" value="1" id="quantity-The Bank Job">
+                    <button onclick="addTicket('The Bank Job', 10, 'quantity-The Bank Job')">Book Now</button>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Upcoming Movies Section -->
+        <section class="movie-section">
+            <h2>Upcoming Movies</h2>
+            <div class="movie-list">
+                <div class="movie-item">
+                    <img src="/images/warning.jpg" alt="The Bank Job">
+                    <p>The Bank Job</p>
+                    <p>Price: $15</p>
+                    <input type="number" min="1" value="1" id="quantity-The Bank Job">
+                    <button onclick="addTicket('The Bank Job', 15, 'quantity-The Bank Job')">Book Now</button>
+                </div>
+                <div class="movie-item">
+                    <img src="/images/🎬 The Great Wall 2💥💥.jpg" alt="Upcoming Movie 2">
+                    <p>The Great Wall 2</p>
+                    <p>Price: $16</p>
+                    <input type="number" min="1" value="1" id="quantity-The Great Wall 2">
+                    <button onclick="addTicket('Upcoming The Great Wall 2', 16, 'quantity-The Great Wall 2')">Book Now</button>
+                </div>
+                <div class="movie-list">
+                    <div class="movie-item">
+                        <img src="/images/Nine Bodies in A Mexican Morgue (TV Series 2025) ⭐ 6_4 _ Crime, Mystery, Thriller.jpg" alt="Upcoming Movie 1">
+                        <p>Nine Bodies in A Mexican Morgue</p>
+                        <p>Price: $15</p>
+                        <input type="number" min="1" value="1" id="quantity-Nine Bodies in A Mexican Morgue">
+                        <button onclick="addTicket('Nine Bodies in A Mexican Morgue', 15, 'quantity-Nine Bodies in A Mexican Morgue')">Book Now</button>
+                    </div>
+                    <div class="movie-list">
+                        <div class="movie-item">
+                            <img src="/images/Woman of the Hour (2023).jpg" alt="Upcoming Movie 1">
+                            <p>Woman of the Hour</p>
+                            <p>Price: $15</p>
+                            <input type="number" min="1" value="1" id="quantity-Woman of the Hour">
+                            <button onclick="addTicket('Woman of the Hour', 15, 'quantity-Woman of the Hour')">Book Now</button>
+                        </div>
+                        <div class="movie-list">
+                            <div class="movie-item">
+                                <img src="/images/black sea.jpg" alt="Upcoming Movie 1">
+                                <p>Black Sea</p>
+                                <p>Price: $15</p>
+                                <input type="number" min="1" value="1" id="quantity-Black Sea">
+                                <button onclick="addTicket('Black Sea', 15, 'quantity-Black Sea')">Book Now</button>
+                            </div>
+                            <div class="movie-list">
+                                <div class="movie-item">
+                                    <img src="/images/47.jpg" alt="Upcoming Movie 1">
+                                    <p>12 Strong</p>
+                                    <p>Price: $15</p>
+                                    <input type="number" min="1" value="1" id="quantity-12 Strong">
+                                    <button onclick="addTicket('12 Strong', 15, 'quantity-12 Strong')">Book Now</button>
+                                </div>
+               
+            </div>
+        </section>
+
+             
+               <section class="movie-section">
+                <h2>Premium Screenings </h2>
+                <div class="movie-list">
+                    <div class="movie-item">
+                        <img src="/images/pred.jpg" alt="Movie A">
+                        <p>Alien vs Predator 3</p>
+                        <p>Price: $10</p>
+                        <input type="number" min="1" value="1" id="quantity-Alien vs Predator 3">
+                        <button onclick="addTicket('Alien vs Predator 3', 10, 'quantity-Alien vs Predator 3')">Book Now</button>
+                    </div>
+                    <div class="movie-item">
+                        <img src="/images/log in or sign up.jpg" alt="Movie B">
+                        <p>Riddick</p>
+                        <p>Price: $12</p>
+                        <input type="number" min="1" value="1" id="quantity-Riddick">
+                        <button onclick="addTicket('Riddick', 12, 'quantity-Riddick')">Book Now</button>
+                    </div>
+                    <div class="movie-item">
+                        <img src="/images/Top Movie Recommendations 🔥.jpg" alt="Movie A">
+                        <p>Jack and the Giant Slayer 2</p>
+                        <p>Price: $10</p>
+                        <input type="number" min="1" value="1" id="quantity-Jack and the Giant Slayer 2">
+                        <button onclick="addTicket('Jack and the Giant Slayer 2', 10, 'quantity-Jack and the Giant Slayer 2')">Book Now</button>
+                    </div>
+                    <div class="movie-item">
+                        <img src="/images/ware.jpg" alt="Movie A">
+                        <p>WareWovlves</p>
+                        <p>Price: $10</p>
+                        <input type="number" min="1" value="1" id="quantity-WareWovlves">
+                        <button onclick="addTicket('WareWovlves', 10, 'quantity-WareWovlves')">Book Now</button>
+                    </div>   
+                </div>
+            </section>
+
+                  
+        <section class="movie-section">
+            <h2>3D & IMAX Shows </h2>
+            <div class="movie-list">
+                <div class="movie-item">
+                    <img src="/images/Witch Hunt Film Poster.jpg" alt="Upcoming Movie 1">
+                    <p>Witch Hunt</p>
+                    <p>Price: $15</p>
+                    <input type="number" min="1" value="1" id="quantity-Witch Hunt">
+                    <button onclick="addTicket('Witch Hunt', 15, 'quantity-Witch Hunt')">Book Now</button>
+                </div>
+                <div class="movie-item">
+                    <img src="/images/Mook Worranit - EXIT Movie Poster.jpg" alt="Upcoming Movie 2">
+                    <p>EXIT</p>
+                    <p>Price: $16</p>
+                    <input type="number" min="1" value="1" id="quantity-EXIT">
+                    <button onclick="addTicket('Upcoming EXIT', 16, 'quantity-EXIT')">Book Now</button>
+                </div>
+                <div class="movie-list">
+                    <div class="movie-item">
+                        <img src="/images/weathering earth 2 movie.jpg" alt="Upcoming Movie 1">
+                        <p>Weathering earth 2</p>
+                        <p>Price: $15</p>
+                        <input type="number" min="1" value="1" id="quantity-Weathering earth 2">
+                        <button onclick="addTicket('Upcoming Weathering earth 2', 15, 'quantity-Weathering earth 2')">Book Now</button>
+                    </div>
+                    <div class="movie-list">
+                        <div class="movie-item">
+                            <img src="/images/kgf.jpg" alt="Upcoming Movie 1">
+                            <p>KGF 3</p>
+                            <p>Price: $15</p>
+                            <input type="number" min="1" value="1" id="quantity-KGF 3<">
+                            <button onclick="addTicket('Upcoming KGF 3<', 15, 'quantity-KGF 3<')">Book Now</button>
+                        </div>  
+                    </div>
+                </section>
+
+                      
+                       <section class="movie-section">
+                        <h2>Special Discount Offers !! </h2>
+                        <div class="movie-list">
+                            <div class="movie-item">
+                                <img src="/images/SHOWGUN.jpg" alt="Movie A">
+                                <p>SHOWGUN</p>
+                                <p>Price: $10</p>
+                                <input type="number" min="1" value="1" id="quantity-SHOWGUN">
+                                <button onclick="addTicket('SHOWGUN', 10, 'quantity-SHOWGUN')">Book Now</button>
+                            </div>
+                            <div class="movie-item">
+                                <img src="/images/Sheroes.jpg" alt="Movie B">
+                                <p>Sheroes</p>
+                                <p>Price: $12</p>
+                                <input type="number" min="1" value="1" id="quantity-Sheroes">
+                                <button onclick="addTicket('Sheroes', 12, 'quantity-Sheroes')">Book Now</button>
+                            </div>
+                            <div class="movie-item">
+                                <img src="/images/Cloudy mountain (2021) - Li Jun.jpg" alt="Movie A">
+                                <p>Cloudy mountain (2025)</p>
+                                <p>Price: $10</p>
+                                <input type="number" min="1" value="1" id="quantity-Cloudy mountain (2025)">
+                                <button onclick="addTicket('Cloudy mountain (2025)', 10, 'quantity-Cloudy mountain (2025)')">Book Now</button>
+                            </div> 
+                        </div>
+                    </section>
+
+        <!-- Ticket Selection Table -->
+        <h2>Your Selected Tickets</h2>
+        <table id="ticket-table">
+            <thead>
+                <tr>
+                    <th>Movie</th>
+                    <th>Seats</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <p>Total Price: $<span id="total-price">0</span></p>
+
+        <!-- Checkout and Clear Buttons -->
+        <button id="checkout-btn">Proceed to Checkout</button>
+        <button id="clear-btn">Clear Cart</button>
+        <button id="save-favorite-btn">Save as Favourite</button>
+        <button id="apply-favorite-btn">Apply Favourite</button>
+    </div>
+
+        <!-- Footer Section -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-about">
+                    <h3>About Movies 4K</h3>
+                    <p>Experience the best 4K cinema with a wide selection of movies, exclusive screenings, and the latest blockbusters in ultra-high definition.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Movies</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p>Email: contact@movies4k.com</p>
+                    <p>Phone: (123) 456-7890</p>
+                    <p>Address: 123 Cinema St, Film City, CA</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Movies 4K. All rights reserved.</p>
+            </div>
+        </footer>
+
+    <script src="/Scripts/script.js"></script>
+</body>
+</html>
